@@ -1,7 +1,44 @@
+class LearningPath():
+    
+    def __init__(self, categoria, especialidad, nivel):
+        self.categoria = categoria
+        self.especialidad = especialidad
+        self.nivel = nivel
 
+class ListaRutas():
+    
+    def __init__():
+        self.rutas = []
+    
 
 def command(option):
-    
+    if option == 'd':
+        
+        print('Elegiste Desarrollo e Ingenieria')
+
+    elif option == 'di':
+        
+        print('Elegiste Diseño y UX')
+        
+    elif option == 'm':
+        
+        print('Elegiste Marketing Digital')
+        
+    elif option == 'n':
+        
+        print('Elegiste Negocios y Emprendimiento')
+        
+    elif option == 'p':
+        
+        print('Elegiste Producción Audiovisual')
+
+    elif option == 'c':
+        
+        print('Elegiste Crecimiento Profesional')
+        
+    else:
+        print('Opción no válida, intenta de nuevo por favor.')
+        
 
 def run():
     print('''                    
@@ -20,7 +57,7 @@ def run():
                            
                            [D]esarollo e Ingeniería
                            [Di]seño y UX
-                           [M]arketing
+                           [M]arketing Digital
                            [N]egocios y Emprendimiento
                            [P]roducción Audiovisual
                            [C]recimiento profesional
